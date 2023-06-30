@@ -12,17 +12,25 @@
 expo-cli start --tunnel
 ```
 
-The Metro bundle will start creating the app, then select the platform of your choice to run the JobQuest app.
+- In case the following error is displayed 'Dependencies are not compatible with currently ntsalled expo package version when running npm start' while building the project, use:
+
+```
+expo update
+```
+
+It just means that some of the dependencies in your project are out of date and not compatible with the version of expo you are using in your project.
+
+- The Metro bundle will start creating the app, then select the platform of your choice to run the JobQuest app.
 
 # Additional Dependencies Installed
 
-### Enable Expo Globally
+- ### Enable Expo Globally
 
 ```
 npm install -g expo-cli
 ```
 
-### Font
+- ### Font
 
 ```
 npm install expo-font axios react-native-dotenv
