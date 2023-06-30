@@ -12,7 +12,7 @@
 expo-cli start --tunnel
 ```
 
-- In case the following error is displayed 'Dependencies are not compatible with currently ntsalled expo package version when running npm start' while building the project, use:
+- In case the following error is displayed 'Dependencies are not compatible with currently installed expo package version when running npm start' while building the project, use:
 
 ```
 expo update
