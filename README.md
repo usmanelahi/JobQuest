@@ -35,3 +35,5 @@ npm install -g expo-cli
 ```
 npm install expo-font axios react-native-dotenv
 ```
+
+- In the file "\_layout.js", the fonts have been enabled from the dependency installed.
